@@ -19,6 +19,6 @@ class Droplet{
     showDrop(){
       fill("blue")
       ellipseMode(CENTER)
-      ellipse(this.rain.position.x,this,position.y,this.radius,this.radius)
+      ellipse(this.rain.position.x,this.rain.position.y,this.radius,this.radius)
     } 
 }
